@@ -55,7 +55,7 @@ String asJson (Map m) {
 	return json
 }
 
-target(main: "Compile the Backbone html templates and generates a JS file with all templates as variables!") {
+target(compileTemplates: "Compile the Backbone html templates and generates a JS file with all templates as variables!") {
 	
 	loadBackboneConfig()
 	
@@ -88,5 +88,3 @@ target(main: "Compile the Backbone html templates and generates a JS file with a
 		println 'ERROR: The backbone template directory does not exists!'
 	}
 }
-
-setDefaultTarget(main)

@@ -16,7 +16,7 @@ target(main: "Creates a Backbone Model based on a template!") {
 		
 		// Process the arguments	
 		String path = config.backbone.models + '/'
-		String modelName = (args[0]).toString().toLowerCase().capitalize() + 'Model'
+		String modelName = (args[0]).toString().capitalize() + 'Model'
 		if (args.size() > 1) {
 			path += args[1] + '/'
 		}

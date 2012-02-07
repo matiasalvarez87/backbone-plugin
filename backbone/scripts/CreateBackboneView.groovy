@@ -16,7 +16,7 @@ target(main: "Creates a Backbone View based on a template!") {
 		
 		// Process the arguments	
 		String path = config.backbone.views + '/'
-		String viewName = (args[0]).toString().toLowerCase().capitalize() + 'View'
+		String viewName = (args[0]).toString().capitalize() + 'View'
 		String packageName = ''
 		if (args.size() > 1) {
 			packageName += args[1] + '/'

@@ -16,7 +16,7 @@ target(main: "Creates a Backbone Collection based on a template!") {
 		
 		// Process the arguments	
 		String path = config.backbone.collections + '/'
-		String collectionName = (args[0]).toString().toLowerCase().capitalize() + 'Collection'
+		String collectionName = (args[0]).toString().capitalize() + 'Collection'
 		if (args.size() > 1) {
 			path += args[1] + '/'
 		}

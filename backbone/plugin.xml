@@ -1,0 +1,21 @@
+<plugin name='backbone' version='0.1' grailsVersion='2.0 &gt; *'>
+  <author>Matias Emiliano Alvarez Duran</author>
+  <authorEmail>matiasalvarez87@gmail.com</authorEmail>
+  <title>Backbone Plugin</title>
+  <description>Grails plugin to integrate backbone.js library and use it as front-end arquitecture.
+</description>
+  <documentation>http://grails.org/plugin/backbone</documentation>
+  <type>BackboneGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

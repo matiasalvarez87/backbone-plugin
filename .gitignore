@@ -1,0 +1,10 @@
+.settings
+.classpath
+.project
+eclipse
+stacktrace.log
+target
+target-eclipse
+/plugins
+/web-app/plugins
+/web-app/WEB-INF/classes

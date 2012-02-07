@@ -1,0 +1,14 @@
+/**
+ * Holds the backbone plugin configurations.
+ * */
+backbone {
+	
+	root		= "web-app/"
+	basePath 	= "web-app/backbone-app"
+	
+	libs 		= "${basePath}/libs"
+	collections = "${basePath}/collections"
+	models 		= "${basePath}/models"
+	views 		= "${basePath}/views"
+	templates 	= "${basePath}/templates"
+}

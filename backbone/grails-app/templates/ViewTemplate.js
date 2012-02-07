@@ -3,10 +3,11 @@
  * 
  * Description: @view.name@ class description here.
  * */
+App.namespace('@package@');
 
-var @view.name@ = Backbone.View.extend({
+App.@package@.@view.name@ = Backbone.View.extend({
 	
-    el: $("#element"),
+	// TODO: The 'el' element must be set from constructor
 	
     /**
      * Renders the view component.

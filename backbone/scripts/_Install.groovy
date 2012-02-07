@@ -14,11 +14,3 @@ ant.copy(file: "${backbonePluginDir}/grails-app/templates/BackboneConfig_groovy"
 	tofile: "${basedir}/grails-app/conf/BackboneConfig.groovy")
 
 createDirLayout()
-
-String plgnBasePath = "${backbonePluginDir}/grails-app/templates/backbone-app"
-String basePath = config.backbone.basePath
-
-// Copies the js files
-ant.copy(file: "${plgnBasePath}/main.js", tofile: "${basePath}/main.js")
-ant.copy(file: "${plgnBasePath}/App.js", tofile: "${basePath}/App.js")
-ant.copy(file: "${plgnBasePath}/AppRouter.js", tofile: "${basePath}/AppRouter.js")

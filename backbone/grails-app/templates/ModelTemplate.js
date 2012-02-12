@@ -1,10 +1,10 @@
 /**
- * File: @file.path@@model.name@.js
+ * File: @file.path@@artifact.name@.js
  * 
- * Description: @model.name@ class description here.
+ * Description: @artifact.name@ class description here.
  * */
 
-var @model.name@ = Backbone.Model.extend({
+var @artifact.name@ = Backbone.Model.extend({
 	
 	/**
 	 * Property default values.

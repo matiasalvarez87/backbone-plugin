@@ -1,11 +1,11 @@
 /**
- * File: @file.path@@view.name@.js
+ * File: @file.path@@artifact.name@.js
  * 
- * Description: @view.name@ class description here.
+ * Description: @artifact.name@ class description here.
  * */
 App.namespace('@package@');
 
-App.@package@.@view.name@ = Backbone.View.extend({
+App.@package@.@artifact.name@ = Backbone.View.extend({
 	
 	// TODO: The 'el' element must be set from constructor
 	

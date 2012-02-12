@@ -1,10 +1,10 @@
 /**
- * File: @file.path@@collection.name@.js
+ * File: @file.path@@artifact.name@.js
  * 
- * Description: @collection.name@ class description here.
+ * Description: @artifact.name@ class description here.
  * */
 
-var @collection.name@ = Backbone.Collection.extend({
+var @artifact.name@ = Backbone.Collection.extend({
 	
 	/**
 	 * Object type in the collection.
